@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: 'Girassol', cursive;
+    background-color: antiquewhite;
+}
+h1, h2, h3, p ul, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rosybrown;
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+nav h1 {
+    font-size: 3rem;
+    color:rosybrown;
+} 
+nav h6{
+    font-weight: 300;
+    margin: 10px auto;
+    font-size: 25px;
+} 
+nav a {
+    font-weight: 300;
+    font-size: 25px;
+    margin: auto;
+    color: black;
+}
+nav a:hover {
+    color: rosybrown;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
+.details h2 {
+    text-align: left;
+}
+
+h3 {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.content {
+    margin-left: 20px;
+}
+.create-blog form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.create-blog input, .create-blog textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    font-family: 'Girassol', cursive;
+}
+.create-blog label {
+    display: block;
+    margin-top: 24px;
+}
+textarea {
+    height: 120px;
+}
+.create-blog button {
+    margin-top: 20px;
+    background: rosybrown;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.not-found h3 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: black;
+}
+.content {
+    margin-left: 20px;
+}
+.blogs a {
+    display: block;
+    margin: 40px 0;
+    padding-left: 30px;
+    border-left: 6px solid rosybrown;
+    color: black;
+}
+.blogs a:hover h3 {
+    color: rosybrown;
+}
+.details {
+    position: relative;
+}
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: red;
+    color: white;
+}
+.delete:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+button {
+    border-radius: 50%;
+    width: 85px;
+    font-family: 'Girassol', cursive;
+}
